@@ -1,0 +1,26 @@
+table{
+    border-collapse:collapse;
+    font:normal normal 12px Verdana,Arial,Sans-Serif,black;
+    color:#0a0a0a;
+}
+
+table th {
+    background:#00BFFF;
+    color:#DCDCDC;
+    font-weight:bold;
+    font-size:14px;
+}
+
+table th,
+table td {
+    padding:5px 10px;
+    border:1px solid #111010;
+}
+
+table tr {
+    background:#F5FFFA;
+}
+
+table tr:nth-child(even) {
+    background:#F0F8FF;
+}
